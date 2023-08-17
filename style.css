@@ -48,6 +48,11 @@ svg {
     max-width: 100%;
 }
 
+.default-width {
+    width: 80%;
+    max-width: 1440px;
+    margin-inline: auto;
+}
 
 
 /* Header */
@@ -65,6 +70,9 @@ header {
 
 /* Footer */
 
+footer {
+    background-color: var(--clr-primary-DarkBlue);
+}
 
 
 /* Frontend Mentor default attribution */
