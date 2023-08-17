@@ -58,11 +58,43 @@ svg {
 /* Header */
 
 header {
+    padding: 48px 0;
+    margin-bottom: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.nav-list {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-link,
+.nav-link a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--clr-primary-DarkBlue);
+    font-weight: var(--fw-semi-bold);
+}
+
+.button {
+    padding: 8px 32px;
+    background-color: var(--clr-primary-BrightRed);
+    border: 0;
+    border-radius: 32px;
+    color: var(--clr-neutral-VeryPaleRed);
+    font-weight: var(--fw-semi-bold);
+    box-shadow: 0 8px 16px var(--clr-primary-BrightRed);
+}
+
+.bg-img {
+    position: absolute;
+    top: -30vh;
+    right: -30vh;
+    z-index: -1;
+    
+}
 
 /* Main */
 
