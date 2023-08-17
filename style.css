@@ -16,8 +16,8 @@
     --fw-bold: 700;
 
     --fs-16: 1rem;
-    --fs-30: 1.875rem;
-    --fs-40: 2.5rem;
+    --fs-30: 2rem;
+    --fs-40: 3rem;
 }
 
 
@@ -40,6 +40,10 @@ body {
 body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+}
+
+h1, h2, h2 {
+    line-height: 1.15;
 }
 
 img,
@@ -120,14 +124,37 @@ header {
     color: var(--clr-primary-DarkBlue);
 }
 
-.hero p {
+.hero p,
+.content p {
     color: var(--clr-neutral-DarkGrayishBlue);
     font-weight: var(--fw-regular);
     width: 80%;
+    margin-bottom: 48px;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 32px;
+}
 
+.content-info h2 {
+    color: var(--clr-primary-DarkBlue);
+    font-size: var(--fs-30);
+    font-weight: var(--fw-bold);
+    margin-bottom: 32px;
+}
 
+.content-list li {
+    list-style: none;
+}
+
+.content-list h3 {
+    color: var(--clr-primary-DarkBlue);
+    font-weight: var(--fw-bold);
+    margin-bottom: 24px;
+}
 
 
 
