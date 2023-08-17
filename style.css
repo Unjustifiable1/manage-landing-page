@@ -1,5 +1,56 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* custom properties */
+
+:root {
+    --clr-primary-BrightRed: hsl(12, 88%, 59%);
+    --clr-primary-DarkBlue: hsl(228, 39%, 23%);
+
+    --clr-neutral-DarkGrayishBlue: hsl(227, 12%, 61%);
+    --clr-neutral-VeryDarkBlue: hsl(233, 12%, 13%);
+    --clr-neutral-VeryPaleRed: hsl(13, 100%, 96%);
+    --clr-neutral-VeryLightGray: hsl(0, 0%, 98%);
+
+    --ff-primary: 'Be Vietnam Pro', sans-serif;
+
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 700;
+
+    --fs-16: 1rem;
+    --fs-30: 1.875rem;
+    --fs-40: 2.5rem;
+}
+
+
+
+
+/* Set defaults */
+
+* {
+    font: inherit;
+    font-family: var(--ff-primary);
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+
+
+/* Header */
 
 header {
     display: flex;
@@ -7,6 +58,16 @@ header {
     align-items: center;
 }
 
-.bg-img.one {
-    display: block;
-}
+
+/* Main */
+
+
+
+/* Footer */
+
+
+
+/* Frontend Mentor default attribution */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
