@@ -98,6 +98,37 @@ header {
 
 /* Main */
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 32px;
+}
+
+.hero-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.hero h1 {
+    font-size: var(--fs-40);
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary-DarkBlue);
+}
+
+.hero p {
+    color: var(--clr-neutral-DarkGrayishBlue);
+    font-weight: var(--fw-regular);
+    width: 80%;
+}
+
+
+
+
 
 
 /* Footer */
