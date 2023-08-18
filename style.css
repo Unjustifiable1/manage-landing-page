@@ -253,9 +253,6 @@ footer {
     font-weight: var(--fw-semi-bold);
 }
 
-.footer-form {
-}
-
 form input,
 .form-button {
     color: var(--clr-neutral-VeryLightGray);
