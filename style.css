@@ -206,7 +206,43 @@ header {
 /* Footer */
 
 footer {
-    background-color: var(--clr-primary-DarkBlue);
+    background-color: var(--clr-neutral-VeryDarkBlue);
+}
+
+.footer-container {
+    /* height: 300px; */
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    padding: 4px;
+    background-color: var(--clr-neutral-VeryLightGray);
+}
+
+.div-social-links img {
+    display: inline;
+}
+
+.footer-nav ul {
+    list-style: none;
+    width: 30%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8rem;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: var(--clr-neutral-VeryLightGray);
 }
 
 
