@@ -215,6 +215,7 @@ footer {
 .footer-container {
     padding: 24px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -230,13 +231,13 @@ footer {
 }
 
 .footer-nav {
-    width: 350px;
+    max-width: 350px;
 }
 
 .footer-nav ul {
     list-style: none;
     width: 30%;
-    height: 140px;
+    min-height: 140px;
     display: flex;
     flex-flow: column wrap;
     gap: 16px;
@@ -244,7 +245,7 @@ footer {
 }
 
 .footer-nav li {
-    width: 8rem;
+    max-width: 8rem;
 }
 
 .footer-nav a {
